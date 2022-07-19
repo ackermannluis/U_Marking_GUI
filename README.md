@@ -53,5 +53,5 @@ This file contains the student's id number, first name, surname, and email addre
 As you can see the GUI is far from pretty, but it does the job, if you can give me a hand in making it nicer let me know.
 
 
-<img src="../screenshots/Screenshot from 2022-07-19 09-30-33.png" width="250">
+![alt text](../screenshots/Screenshot_1.png?raw=true)
 
