@@ -16,6 +16,7 @@ You first need to have python installed in your system, Anaconda is a good optio
 
 It is recommended you create an environment to install this package, this can be done by starting terminal (linux, mac) or the command prompt (windows) and running:
 
+
 `conda create -n ENVIRONMENT_NAME`
 
 ENVIRONMENT_NAME can be any name, something like marking_environment could be a good choice
@@ -32,6 +33,7 @@ You might need to install git to get this last command to work, follow these ins
 
 ## Use
 Start the terminal (linux, mac) or the command prompt (windows) and run
+
 `conda activate ENVIRONMENT_NAME`
 
 `python`
