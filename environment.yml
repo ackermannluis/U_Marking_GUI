@@ -1,0 +1,7 @@
+name: u_marking_gui
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - xlsxwriter
