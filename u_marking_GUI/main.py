@@ -876,6 +876,8 @@ def display_student_marking():
 
 ####################################################################################################
 if __name__ == '__main__':
+    __version__ = '1.01.0'
+
     # font size
     student_id_font_size = 10
     question_number_font_size = 16
@@ -896,9 +898,9 @@ if __name__ == '__main__':
     path_output = path_program
 
     # root.protocol("WM_DELETE_WINDOW", clean_exit)
-    program_name = os.path.basename(__file__).split('_')[0]
+    program_name = 'Universal Marking GUI'
     program_version = os.path.basename(__file__).split('_')[-1].split('.')[0]
-    root_title = program_name + ' ' + program_version
+    root_title = program_name + ' V' + __version__
     root.title(root_title)
     root.resizable(True,True)
 
@@ -907,9 +909,6 @@ if __name__ == '__main__':
 
     # running your application, until you exit
     root.mainloop()
-
-# from  U_Analysis_main import *
-# pyinstaller --onefile --windowed U_Mark_V_0_05.py
 
 
 
