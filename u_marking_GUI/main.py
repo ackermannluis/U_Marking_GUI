@@ -35,6 +35,16 @@ Change log:
 - allowed the student list to be a csv (comma delimited)
 """
 
+__version__ = '1.02.0'
+program_name = 'Universal Marking GUI'
+program_version = os.path.basename(__file__).split('_')[-1].split('.')[0]
+root_title = program_name + ' V' + __version__
+
+# font size
+student_id_font_size = 10
+question_number_font_size = 16
+font_size = 12
+
 ##########################################################################
 #define needed classes
 class VerticalScrolledFrame(Frame):
@@ -875,15 +885,7 @@ def display_student_marking():
         error_handler('Error\n' + str(error_msg))
 
 ####################################################################################################
-if __name__ == '__main__':
-    __version__ = '1.01.0'
-
-    # font size
-    student_id_font_size = 10
-    question_number_font_size = 16
-    font_size = 12
-
-
+def start_GUI():
     # clean exit program
     def clean_exit():
         if messagebox.askokcancel("Quit", "Do you really wish to quit?"):
@@ -898,9 +900,6 @@ if __name__ == '__main__':
     path_output = path_program
 
     # root.protocol("WM_DELETE_WINDOW", clean_exit)
-    program_name = 'Universal Marking GUI'
-    program_version = os.path.basename(__file__).split('_')[-1].split('.')[0]
-    root_title = program_name + ' V' + __version__
     root.title(root_title)
     root.resizable(True,True)
 

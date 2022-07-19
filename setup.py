@@ -17,7 +17,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="u_marking_gui",
-    version="1.01.0",
+    version="1.02.0",
     description="Universal Marking Graphical User Interface",
     long_description=long_description,
     long_description_content_type="text/markdown",
