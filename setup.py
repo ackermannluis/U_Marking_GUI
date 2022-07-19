@@ -40,6 +40,6 @@ setup(
     package_data={'': ['*.txt','*.csv']},
     keywords="marking grading tutoring education teacher assessment",
     packages=find_packages(exclude=["contrib", "docs", "tests", "notebooks"]),
-    install_requires=["tkinter", "numpy", "xlsxwriter"],
+    install_requires=["numpy", "xlsxwriter"],
     project_urls={"Source": "https://github.com/ackermannluis/U_Marking_GUI/",},
 )
