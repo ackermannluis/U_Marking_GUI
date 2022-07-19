@@ -16,14 +16,18 @@ This program allows to efficiently and consistently mark assignments in a graphi
 You first need to have python installed in your system, Anaconda is a good option (https://docs.anaconda.com/anaconda/install/)
 
 It is recommended you create an environment to install this package, this can be done by starting terminal (linux, mac) or the command prompt (windows) and running:
+
 `conda create -n ENVIRONMENT_NAME`
+
 ENVIRONMENT_NAME can be any name, something like marking_environment could be a good choice
 
 Activate this environment by running:
 `conda activate ENVIRONMENT_NAME`
 
 Then you can install this package by running:
+
 `python -m pip install git+https://github.com/ackermannluis/U_Marking_GUI`
+
 
 You might need to install git to get this last command to work, follow these instructions to install it on your system (https://github.com/git-guides/install-git) 
 
