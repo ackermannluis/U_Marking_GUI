@@ -31,6 +31,15 @@ Then you can install this package by running:
 You might need to install git to get this last command to work, follow these instructions to install it on your system (https://github.com/git-guides/install-git) 
 
 ## Use
+Start the terminal (linux, mac) or the command prompt (windows) and run
+`conda activate ENVIRONMENT_NAME`
+
+`python`
+
+`import u_marking_GUI`
+
+`u_marking_GUI.start_GUI()`
+
 
 ### Tutorial
 A video showing you the way to use this GUI can be find here
