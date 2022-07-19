@@ -8,7 +8,6 @@ This program allows to efficiently and consistently mark assignments in a graphi
 
 
 ## Dependencies
-- tkinter
 - numpy
 - xlsxwriter
 
