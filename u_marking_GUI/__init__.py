@@ -5,7 +5,7 @@ import sys
 
 warnings.filterwarnings("ignore")
 
-__version__ = '1.02.0'
+__version__ = '1.03.0'
 
 # Get path to mymodule
 u_marking_gui_path = str(Path(__file__).parent)

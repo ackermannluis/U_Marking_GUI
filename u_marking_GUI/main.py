@@ -35,10 +35,15 @@ Change log:
 - allowed the student list to be a csv (comma delimited)
 """
 
-__version__ = '1.02.0'
+__version__ = '1.03.0'
 program_name = 'Universal Marking GUI'
 program_version = os.path.basename(__file__).split('_')[-1].split('.')[0]
 root_title = program_name + ' V' + __version__
+# path_program = os.path.dirname(os.path.realpath(sys.argv[0]))
+path_program = ''
+path_input = path_program
+path_output = path_program
+
 
 # font size
 student_id_font_size = 10
@@ -886,6 +891,8 @@ def display_student_marking():
 
 ####################################################################################################
 def start_GUI():
+    global root
+
     # clean exit program
     def clean_exit():
         if messagebox.askokcancel("Quit", "Do you really wish to quit?"):
@@ -893,11 +900,6 @@ def start_GUI():
 
     # program root
     root = Tk()
-
-    # path_program = os.path.dirname(os.path.realpath(sys.argv[0]))
-    path_program = ''
-    path_input = path_program
-    path_output = path_program
 
     # root.protocol("WM_DELETE_WINDOW", clean_exit)
     root.title(root_title)
