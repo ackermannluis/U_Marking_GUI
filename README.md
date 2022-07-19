@@ -54,3 +54,18 @@ As you can see the GUI is far from pretty, but it does the job, if you can give 
 
 ![alt text](../media/Screenshot_1.png?raw=true)
 
+
+![alt text](../media/Screenshot_2.png?raw=true)
+
+
+![alt text](../media/Screenshot_3.png?raw=true)
+
+
+![alt text](../media/Screenshot_4.png?raw=true)
+
+
+![alt text](../media/Screenshot_5.png?raw=true)
+
+
+![alt text](../media/Screenshot_6.png?raw=true)
+
