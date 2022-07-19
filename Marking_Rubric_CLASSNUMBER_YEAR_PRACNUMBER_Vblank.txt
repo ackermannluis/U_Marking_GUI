@@ -1,0 +1,42 @@
+#!Question name:Q1 - Question Name
+#!Question marks:10
+#!Marking resolution:5
+#!Evaluation criteria weight|description:
+2|First evaluation criteria of question one
+2|Second evaluation criteria of question one
+2|Third evaluation criteria of question one
+1|Ns evaluation criteria of question one
+1|Another evaluation criteria, can have as many as practical
+1|And the numbers before the bar represents the marks for each criteria
+1|last criteria, the sum of the numbers should be equal to the question marks
+#!Standard Feedback options:
+Well done
+Each line is a possible feedback sentence that can be quickly added to the feedback given to the student
+The common feedbacks should be placed here, not really a very specific one
+For specific feedback, you can add it by pressing the corresponding button
+If you find that there is a specific feedback that keeps happening, you can add it during marking
+This last option is usually the most efficient way of making this list
+The correct answers for each criteria can also be added here if you want
+----------------------------------------------------------------------------------------------------
+#!Question name:Q2 - Model Simulations
+#!Question marks:8
+#!Marking resolution:5
+#!Evaluation criteria weight|description:
+3|Plot histograms of the hist and histNat simulations
+1|Simple evaluation of the two simulations. NatHis vs early OBS
+1|Simple evaluation of the two simulations. His vs late OBS
+3|Plot normal probability density functions (PDFs) for both the hist and histNat scenarios
+#!Standard Feedback options:
+Well done
+Figure labels are missing (axes must include units where appropriate, legend is needed is multiple variables are shown)
+Histogram of the hist and histNat simulations missing
+PDFs plots missing
+Hottest and second hottest observed years not indicated
+Simple simulation evaluation missing
+Summary statistics of the simulation evaluation missing
+Assessment of the NatHist simulation agreement with early observation data missing
+Assessment of the Hist simulation agreement with late observation data missing
+Assessment of the simulation agreement needed more details for full marks
+The early years of the observed data was slightly warmer than the NatHist and less variable, why could this be the case?
+----------------------------------------------------------------------------------------------------
+
