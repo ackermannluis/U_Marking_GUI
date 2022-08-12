@@ -24,6 +24,9 @@ ENVIRONMENT_NAME can be any name, something like marking_environment could be a 
 Activate this environment by running:
 `conda activate ENVIRONMENT_NAME`
 
+Install pip by running:
+`conda install pip`
+
 Then you can install this package by running:
 
 `python -m pip install git+https://github.com/ackermannluis/U_Marking_GUI`
